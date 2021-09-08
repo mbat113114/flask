@@ -1,2 +1,9 @@
+from flask import Flask
+app = Flask(__name____) 
 
-print(22)
+@app.route("/")
+def home():
+  return "<h1>aman</h1>"
+
+if __name__ =="__main__":
+  app.run()
