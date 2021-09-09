@@ -1,6 +1,7 @@
 #! /bin/bash
 
-while:do
+while:
+do
   git pull
   python Server.py
 done
