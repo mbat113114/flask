@@ -1,14 +1,14 @@
 {% extends "base.html" %}
 {% block title %}
-index page
+post page
 {% endblock %}
 
-
 {% block homelink %}{{url_for("home") }}{% endblock %}
-{% block postlink %} {{url_for("post") }}{% endblock %}
+{% block postlink %}
+{{url_for("post")}}{% endblock %}
 {% block profilelink %} {{url_for("profile")}} {% endblock %}
 {% block aboutlink %} {{url_for("about")}} {% endblock %}
 
 {% block content %}
-<h1>SUSCES FULL</h1>
+<h1>POST PAGE </h1>
 {% endblock %}
